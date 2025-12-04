@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+     <script src="./script/script.js"></script>
+    <div class="container">
+        <h1 style="font-size:32px; color:#333; text-align:center; margin-bottom:20px;">SIMPLE CALCULATOR</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+            <label style="font-size:16px; font-weight:600; display:block; margin-bottom:6px "for="num1">NUM1:</label>
+                    </td>
+                    <td>
+            <input type="number"style="padding:10px; width:200px; border:1px solid #ccc; border-radius:4px; font-size:16px; margin-bottom:15px;" name="num1" id="1" required placeholder="Enter the first num1:">
+</td>
+</tr>
+<tr>
+    <td>
+            <label style="font-size:16px; font-weight:600; display:block; margin-bottom:6px "for="num2">NUM2:</label>
+            <td>
+            <input type="number"style="padding:10px; width:200px; border:1px solid #ccc; border-radius:4px; font-size:16px; margin-bottom:15px;" name="num2" id="2" required placeholder="Enter the num2:"></td>
+            </tr>
+            <tr>
+                <td>
+            <label style="font-size:16px; font-weight:600; display:block; margin-bottom:6px;"for="sym">OPERATOR:</label></td>
+            <td>
+            <input type="text" name="sym" id="3" required placeholder="Enter the operator:"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+            <input type="button" value="submit" onclick="func1()">
+            </td>
+            </tr>
+</body>
+</html>
